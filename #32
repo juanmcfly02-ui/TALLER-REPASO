@@ -1,0 +1,34 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+   
+        Console.Write("Ingrese el destino: ");
+        string destino = Console.ReadLine();
+
+        Console.Write("Ingrese el número de pasajeros: ");
+        int pasajeros = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Ingrese el costo por persona: ");
+        double costoPersona = Convert.ToDouble(Console.ReadLine());
+
+
+        double total = pasajeros * costoPersona;
+
+   
+        if (pasajeros > 5 && destino.ToLower() == "cancún")
+        {
+            total = total - (total * 0.10); // descuento del 10%
+            Console.WriteLine("Se aplicó un descuento del 10%.");
+        }
+
+
+        Console.WriteLine("\n===== PRESUPUESTO DEL VIAJE =====");
+        Console.WriteLine("Destino: " + destino);
+        Console.WriteLine("Número de pasajeros: " + pasajeros + COP);
+        Console.WriteLine("Costo por persona: $" + costoPersona + COP);
+        Console.WriteLine("Total actualizado: $" + total + COP);
+    }
+}
