@@ -1,0 +1,19 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double horas, tarifa, total;
+
+        Console.Write("Ingrese horas estimadas: ");
+        horas = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Ingrese tarifa por hora: ");
+        tarifa = Convert.ToDouble(Console.ReadLine());
+
+        total = horas * tarifa;
+
+        Console.WriteLine("Costo total de la tarea: " + total);
+    }
+}
