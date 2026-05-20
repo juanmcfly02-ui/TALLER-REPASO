@@ -1,0 +1,18 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Ingrese saldo inicial: ");
+        double saldo = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Ingrese valor del retiro: ");
+        double retiro = Convert.ToDouble(Console.ReadLine());
+
+        saldo -= retiro;
+
+        Console.WriteLine("Saldo restante: " + saldo);
+        Console.WriteLine("¿Saldo mayor a 0?: " + (saldo > 0));
+    }
+}
