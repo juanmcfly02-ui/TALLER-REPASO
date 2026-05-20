@@ -1,0 +1,25 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Iniciar acumulador
+        double gastoTotal = 0;
+
+        // Primer gasto
+        Console.Write("Ingrese el gasto 1: ");
+        gastoTotal += Convert.ToDouble(Console.ReadLine());
+
+        // Segundo gasto
+        Console.Write("Ingrese el gasto 2: ");
+        gastoTotal += Convert.ToDouble(Console.ReadLine());
+
+        // Tercer gasto
+        Console.Write("Ingrese el gasto 3: ");
+        gastoTotal += Convert.ToDouble(Console.ReadLine());
+
+        // Mostrar total
+        Console.WriteLine("El gasto total es: " + gastoTotal);
+    }
+}
