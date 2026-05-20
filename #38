@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Ingrese años de experiencia: ");
+        int experiencia = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("¿Posee certificación CCNA? (true/false): ");
+        bool ccna = Convert.ToBoolean(Console.ReadLine());
+
+        bool califica = experiencia > 3 && ccna;
+
+        Console.WriteLine("¿Califica?: " + califica);
+    }
+}
