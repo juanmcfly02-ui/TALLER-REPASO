@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double tasa = 0.00025;
+
+        Console.Write("Ingrese valor en pesos: ");
+        double pesos = Convert.ToDouble(Console.ReadLine());
+
+        double dolares = pesos * tasa;
+
+        Console.WriteLine("Valor en dólares: " + dolares);
+    }
+}
