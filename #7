@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int minutos;
+        int segundos;
+
+        Console.Write("Ingrese minutos: ");
+        minutos = Convert.ToInt32(Console.ReadLine());
+
+        segundos = minutos * 60;
+
+        Console.WriteLine("Segundos: " + segundos);
+    }
+}
