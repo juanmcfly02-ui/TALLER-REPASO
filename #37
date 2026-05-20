@@ -1,0 +1,20 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Ingrese horas base: ");
+        double horasBase = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Ingrese horas extra: ");
+        double horasExtra = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Ingrese valor por hora: ");
+        double valorHora = Convert.ToDouble(Console.ReadLine());
+
+        double total = (horasBase * valorHora) + (horasExtra * valorHora * 1.5);
+
+        Console.WriteLine("Pago total: " + total);
+    }
+}
