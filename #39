@@ -1,0 +1,26 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int totalHoras = 0;
+
+        Console.Write("Ingrese horas tarea 1: ");
+        totalHoras += Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Ingrese horas tarea 2: ");
+        totalHoras += Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Ingrese horas tarea 3: ");
+        totalHoras += Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Ingrese horas tarea 4: ");
+        totalHoras += Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Ingrese horas tarea 5: ");
+        totalHoras += Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Total de horas del sprint: " + totalHoras);
+    }
+}
