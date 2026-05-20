@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Ingrese stock disponible: ");
+        int stock = Convert.ToInt32(Console.ReadLine());
+
+        bool critico = stock < 5;
+
+        Console.WriteLine("Inventario crítico: " + critico);
+    }
+}
