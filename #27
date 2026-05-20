@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string contraseñaGuardada = "12345";
+        string contraseñaIngresada;
+
+        Console.Write("Ingrese la contraseña: ");
+        contraseñaIngresada = Console.ReadLine();
+
+        bool esIgual = contraseñaIngresada == contraseñaGuardada;
+
+        Console.WriteLine("¿Contraseña correcta?: " + esIgual);
+    }
+}
