@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double salario = 2500;
+        double aporte = 300;
+
+        salario -= aporte;
+
+        Console.WriteLine("Salario final: " + salario);
+    }
+}
