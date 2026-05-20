@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        bool valor;
+
+        Console.Write("Ingrese true o false: ");
+        valor = Convert.ToBoolean(Console.ReadLine());
+
+        Console.WriteLine("Valor lógico: " + valor);
+    }
+}
