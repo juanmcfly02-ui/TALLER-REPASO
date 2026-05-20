@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Ingrese usuario 1: ");
+        string usuario1 = Console.ReadLine();
+
+        Console.Write("Ingrese usuario 2: ");
+        string usuario2 = Console.ReadLine();
+
+        bool diferentes = usuario1 != usuario2;
+
+        Console.WriteLine("¿Son diferentes?: " + diferentes);
+    }
+}
