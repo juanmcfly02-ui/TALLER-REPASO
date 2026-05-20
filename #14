@@ -1,0 +1,23 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Iniciar contador en 0
+        int contador = 0;
+
+        // Simular procesos
+        Console.WriteLine("Proceso 1 ejecutado");
+        contador++;
+
+        Console.WriteLine("Proceso 2 ejecutado");
+        contador++;
+
+        Console.WriteLine("Proceso 3 ejecutado");
+        contador++;
+
+        // Mostrar resultado final
+        Console.WriteLine("Valor final del contador: " + contador);
+    }
+}
