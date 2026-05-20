@@ -1,0 +1,19 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double presupuestoActual, limite;
+
+        Console.Write("Ingrese presupuesto actual: ");
+        presupuestoActual = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Ingrese límite permitido: ");
+        limite = Convert.ToDouble(Console.ReadLine());
+
+        bool resultado = presupuestoActual <= limite;
+
+        Console.WriteLine("¿Está dentro del límite?: " + resultado);
+    }
+}
