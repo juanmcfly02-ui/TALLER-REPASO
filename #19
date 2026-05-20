@@ -1,0 +1,12 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        bool estado = true;
+
+        Console.WriteLine("Valor original: " + estado);
+        Console.WriteLine("Valor invertido: " + !estado);
+    }
+}
