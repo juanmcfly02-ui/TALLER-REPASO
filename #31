@@ -1,0 +1,33 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+
+        int stock = 100;
+
+        Console.Write("Ingrese el nombre del producto: ");
+        string producto = Console.ReadLine();
+
+        Console.Write("Ingrese la cantidad vendida: ");
+        int cantidad = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Ingrese el precio unitario: ");
+        double precio = Convert.ToDouble(Console.ReadLine());
+
+    
+        double subtotal = cantidad * precio;
+
+      
+        stock -= cantidad;
+
+     
+        Console.WriteLine("\n===== FACTURA =====");
+        Console.WriteLine("Producto: " + producto);
+        Console.WriteLine("Cantidad: " + cantidad);
+        Console.WriteLine("Precio Unitario: $" + precio);
+        Console.WriteLine("Subtotal: $" + subtotal);
+        Console.WriteLine("Stock disponible: " + stock);
+    }
+}
