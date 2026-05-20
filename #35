@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Ingrese usuario: ");
+        string usuario = Console.ReadLine();
+
+        Console.Write("Ingrese clave: ");
+        string clave = Console.ReadLine();
+
+        bool acceso = usuario == "admin" && clave == "0000";
+
+        Console.WriteLine("Acceso permitido: " + acceso);
+    }
+}
