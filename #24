@@ -1,0 +1,13 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double herencia = 20000;
+
+        herencia /= 4;
+
+        Console.WriteLine("Cada heredero recibe: " + herencia);
+    }
+}
