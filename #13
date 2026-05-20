@@ -1,0 +1,23 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Capturar notas
+        Console.Write("Ingrese la nota 1: ");
+        double nota1 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Ingrese la nota 2: ");
+        double nota2 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Ingrese la nota 3: ");
+        double nota3 = Convert.ToDouble(Console.ReadLine());
+
+        // Calcular promedio
+        double promedio = (nota1 + nota2 + nota3) / 3;
+
+        // Mostrar resultado
+        Console.WriteLine("El promedio escolar es: " + promedio);
+    }
+}
