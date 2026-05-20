@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double presupuesto = 5000;
+        double nuevaTarea = 1200;
+
+        presupuesto += nuevaTarea;
+
+        Console.WriteLine("Presupuesto actualizado: " + presupuesto);
+    }
+}
