@@ -1,0 +1,13 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // ERROR:
+        // int numero = Console.ReadLine();
+
+        // Console.ReadLine() devuelve string y no puede
+        // guardarse directamente en un int sin conversión.
+    }
+}
