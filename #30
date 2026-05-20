@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string nombre;
+
+        Console.Write("Ingrese su nombre: ");
+        nombre = Console.ReadLine();
+
+        string mensaje = "Gracias por usar el sistema " + nombre;
+
+        Console.WriteLine(mensaje);
+    }
+}
