@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Solicitar base
+        Console.Write("Ingrese la base del rectángulo: ");
+        double baseRectangulo = Convert.ToDouble(Console.ReadLine());
+
+        // Solicitar altura
+        Console.Write("Ingrese la altura del rectángulo: ");
+        double alturaRectangulo = Convert.ToDouble(Console.ReadLine());
+
+        // Calcular área
+        double area = baseRectangulo * alturaRectangulo;
+
+        // Mostrar resultado
+        Console.WriteLine("El área del rectángulo es: " + area);
+    }
+}
