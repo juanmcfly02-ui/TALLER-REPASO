@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int puntos = 0;
+        int compras;
+
+        Console.Write("Ingrese cantidad de compras: ");
+        compras = Convert.ToInt32(Console.ReadLine());
+
+        puntos += compras * 10;
+
+        Console.WriteLine("Puntos acumulados: " + puntos);
+    }
+}
